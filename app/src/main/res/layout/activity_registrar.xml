@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/edPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/edPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar senha"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
